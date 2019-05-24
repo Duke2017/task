@@ -1,0 +1,111 @@
+<mvc:View
+ controllerName="test.controller.second"
+ displayBlock="true"
+ xmlns="sap.m"
+ xmlns:core="sap.ui.core"
+ xmlns:semantic="sap.m.semantic"
+ xmlns:mvc="sap.ui.core.mvc" >
+    <semantic:SemanticPage id="secondPage" showNavButton="true" navButtonPress="_onSecondPageNavButtonPress" showFooter="false">
+		<semantic:content>
+			<IconTabBar id="iconTabBarSecond" items="{mDetails>/divisions}" expandable="false" expanded="true"
+				select="_onTabSelect" selectedKey="" class="iconTabBarContentNone">
+				<items>
+					<IconTabFilter text="{mDetails>divisionName}">
+					</IconTabFilter>
+				</items>
+			</IconTabBar>
+			<VBox width="50%" class="sapUiTinyMarginBottom">
+				<Table id="secondTableFirst"
+					items="{
+						path: 'mDivision>/divisionPersonnel',
+						templateShareable: true
+					}">
+					<headerToolbar>
+						<OverflowToolbar>
+							<ToolbarSpacer/>
+							<Button icon="sap-icon://action-settings" press="onSecondFirstPersoButtonPressed"/>
+						</OverflowToolbar>
+					</headerToolbar>
+					<columns>
+						<Column id="secondTableFirstCol1">
+							<Text text="{i18n>SECOND_NAME}"/>
+						</Column>
+						<Column id="secondTableFirstCol2">
+							<Text text="{i18n>SECOND_JOB}"/>
+						</Column>
+					</columns>
+					<items>
+						<ColumnListItem>
+							<cells>
+								<Text text="{mDivision>name}"/>
+								<Text text="{mDivision>job}"/>
+							</cells>
+						</ColumnListItem>
+					</items>
+				</Table>
+			</VBox>
+			<Table id="secondTableSecond"
+				items="{
+					path: 'mDivision>/divisionMoneyDetails',
+					templateShareable: true
+				}">
+				<columns>
+					<Column>
+						<Text text="{i18n>SECOND_M1}"/>
+					</Column>
+					<Column>
+						<Text text="{i18n>SECOND_M2}"/>
+					</Column>
+					<Column>
+						<Text text="{i18n>SECOND_M3}"/>
+					</Column>
+					<Column>
+						<Text text="{i18n>SECOND_M4}"/>
+					</Column>
+					<Column>
+						<Text text="{i18n>SECOND_M5}"/>
+					</Column>
+					<Column>
+						<Text text="{i18n>SECOND_M6}"/>
+					</Column>
+					<Column>
+						<Text text="{i18n>SECOND_M7}"/>
+					</Column>
+					<Column>
+						<Text text="{i18n>SECOND_M8}"/>
+					</Column>
+					<Column>
+						<Text text="{i18n>SECOND_M9}"/>
+					</Column>
+					<Column>
+						<Text text="{i18n>SECOND_M10}"/>
+					</Column>
+					<Column>
+						<Text text="{i18n>SECOND_M11}"/>
+					</Column>
+					<Column>
+						<Text text="{i18n>SECOND_M12}"/>
+					</Column>
+				</columns>
+				<items>
+					<ColumnListItem>
+						<cells>
+							<ObjectNumber number="{mDivision>M1}" unit="{i18n>FIRST_TITLE_CURRENCY}" emphasized="false"/>
+							<ObjectNumber number="{mDivision>M2}" unit="{i18n>FIRST_TITLE_CURRENCY}" emphasized="false"/>
+							<ObjectNumber number="{mDivision>M3}" unit="{i18n>FIRST_TITLE_CURRENCY}" emphasized="false"/>
+							<ObjectNumber number="{mDivision>M4}" unit="{i18n>FIRST_TITLE_CURRENCY}" emphasized="false"/>
+							<ObjectNumber number="{mDivision>M5}" unit="{i18n>FIRST_TITLE_CURRENCY}" emphasized="false"/>
+							<ObjectNumber number="{mDivision>M6}" unit="{i18n>FIRST_TITLE_CURRENCY}" emphasized="false"/>
+							<ObjectNumber number="{mDivision>M7}" unit="{i18n>FIRST_TITLE_CURRENCY}" emphasized="false"/>
+							<ObjectNumber number="{mDivision>M8}" unit="{i18n>FIRST_TITLE_CURRENCY}" emphasized="false"/>
+							<ObjectNumber number="{mDivision>M9}" unit="{i18n>FIRST_TITLE_CURRENCY}" emphasized="false"/>
+							<ObjectNumber number="{mDivision>M10}" unit="{i18n>FIRST_TITLE_CURRENCY}" emphasized="false"/>
+							<ObjectNumber number="{mDivision>M11}" unit="{i18n>FIRST_TITLE_CURRENCY}" emphasized="false"/>
+							<ObjectNumber number="{mDivision>M12}" unit="{i18n>FIRST_TITLE_CURRENCY}" emphasized="false"/>
+						</cells>
+					</ColumnListItem>
+				</items>
+			</Table>
+		</semantic:content>
+	</semantic:SemanticPage>
+</mvc:View>

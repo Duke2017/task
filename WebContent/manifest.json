@@ -1,0 +1,86 @@
+{
+    "_version": "0.0.1",
+    "sap.app": {
+        "_version": "0.0.1",
+        "id": "test",
+        "type": "application",
+        "i18n": "i18n/i18n.properties",
+        "title": "{{APP_TITLE}}",
+        "description": "{{APP_DESCRIPTION}}",
+        "applicationVersion": {
+            "version": "0.0.1"
+        },
+        "dataSources": {
+
+        }
+    },
+    "sap.ui": {
+        "_version": "1.1.0",
+        "fullWidth": true,
+        "technology": "UI5",
+        "deviceTypes": {
+            "desktop": true,
+            "tablet": true,
+            "phone": true
+        },
+        "supportedThemes": ["sap_belize"]
+    },
+    "sap.ui5": {
+        "_version": "1.1.0",
+        "rootView": "test.view.App",
+        "dependencies": {
+            "minUI5Version": "1.40",
+            "libs": {
+                "sap.ui.core": {},
+                "sap.m": {},
+                "sap.f": {}
+            }
+        },
+        "models": {
+            "i18n": {
+                "type": "sap.ui.model.resource.ResourceModel",
+                "settings": {
+                    "bundleName": "test.i18n.i18n"
+                }
+            }
+        },
+        "resources": {
+            "css": [{
+                "uri": "css/style.css"
+            }],
+            "js": []
+        },
+        "routing": {
+            "config": {
+                "routerClass": "sap.m.routing.Router",
+                "viewType": "XML",
+                "viewPath": "test.view",
+                "async": true,
+                "transition": "slide",
+                "controlId": "App",
+                "controlAggregation": "pages"
+
+            },
+            "routes": [{
+                    "pattern": "",
+                    "name": "first",
+                    "target": "first"
+                },
+                {
+                    "pattern": "details/{selected}",
+                    "name": "second",
+                    "target": "second"
+            }],
+            "targets": {
+                "first": {
+                    "viewName": "first",
+                    "viewLevel": 1
+                },
+                "second": {
+                    "viewName": "second",
+                    "viewLevel": 2
+                }
+            }
+        }
+    }
+}

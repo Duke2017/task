@@ -1,0 +1,10 @@
+.tableStickyHeader .sapMListTblHeaderCell{
+    position: sticky;
+    top: 0;
+}
+.sapMTB-Transparent-CTX.sapMTB {
+    padding-left: 0px;
+}
+.iconTabBarContentNone .sapMITBContainerContent {
+    display: none;
+}

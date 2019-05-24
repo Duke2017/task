@@ -1,0 +1,1122 @@
+{
+	"departments":	[
+		{
+			"id": 1,
+			"name": "Филиал 1",
+			"city": "Город 1",
+			"money": 1000000,
+			"divisions": [
+				{
+					"divisionName": "Подразделение 1",
+					"divisionMoney": 234234,
+					"divisionPersonnel": [
+						{
+							"name": "Name1",
+							"job": "Job1"
+						},
+						{
+							"name": "Name2",
+							"job": "Job2"
+						}
+					],
+					"divisionMoneyDetails": [
+						{
+							"M1": 10001,
+							"M2": 10002,
+							"M3": 10003,
+							"M4": 10004,
+							"M5": 10005,
+							"M6": 10006,
+							"M7": 10007,
+							"M8": 10008,
+							"M9": 10009,
+							"M10": 10010,
+							"M11": 10011,
+							"M12": 10012
+						}
+					]
+				},
+				{
+					"divisionName": "Подразделение 2",
+					"divisionMoney": 234234,
+					"divisionPersonnel": [
+						{
+							"name": "Name2",
+							"job": "Job2"
+						}
+					],
+					"divisionMoneyDetails": [
+						{
+							"M1": 10001,
+							"M2": 10002,
+							"M3": 10003,
+							"M4": 10004,
+							"M5": 10005,
+							"M6": 10006,
+							"M7": 10007,
+							"M8": 10008,
+							"M9": 10009,
+							"M10": 10010,
+							"M11": 10011,
+							"M12": 10012
+						}
+					]
+				},
+				{
+					"divisionName": "Подразделение 3",
+					"divisionMoney": 2323543,
+					"divisionPersonnel": [
+						{
+							"name": "Name1",
+							"job": "Job1"
+						},
+						{
+							"name": "Name2",
+							"job": "Job2"
+						},
+						{
+							"name": "Name3",
+							"job": "Job3"
+						},
+						{
+							"name": "Name4",
+							"job": "Job4"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": 2,
+			"name": "Филиал 2",
+			"city": "Город 2",
+			"money": 1000002,
+			"divisions": [
+				{
+					"divisionName": "Подразделение 1",
+					"divisionMoney": 234234,
+					"divisionPersonnel": [
+						{
+							"name": "Name1",
+							"job": "Job1"
+						},
+						{
+							"name": "Name2",
+							"job": "Job2"
+						},
+						{
+							"name": "Name3",
+							"job": "Job3"
+						},
+						{
+							"name": "Name4",
+							"job": "Job4"
+						},
+						{
+							"name": "Name5",
+							"job": "Job5"
+						}
+					],
+					"divisionMoneyDetails": [
+						{
+							"M1": 10001,
+							"M2": 10002,
+							"M3": 10003,
+							"M4": 10004,
+							"M5": 10005,
+							"M6": 10006,
+							"M7": 10007,
+							"M8": 10008,
+							"M9": 10009,
+							"M10": 10010,
+							"M11": 10011,
+							"M12": 10012
+						}
+					]
+				},
+				{
+					"divisionName": "Подразделение 2",
+					"divisionMoney": 2323543,
+					"divisionPersonnel": [
+						{
+							"name": "Name1",
+							"job": "Job1"
+						},
+						{
+							"name": "Name2",
+							"job": "Job2"
+						},
+						{
+							"name": "Name3",
+							"job": "Job3"
+						},
+						{
+							"name": "Name4",
+							"job": "Job4"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": 3,
+			"name": "Филиал 3",
+			"city": "Город 3",
+			"money": 1000003,
+			"divisions": [
+				{
+					"divisionName": "Подразделение 1",
+					"divisionMoney": 234234,
+					"divisionPersonnel": [
+						{
+							"name": "Name1",
+							"job": "Job1"
+						},
+						{
+							"name": "Name2",
+							"job": "Job2"
+						}
+					],
+					"divisionMoneyDetails": [
+						{
+							"M1": 10001,
+							"M2": 10002,
+							"M3": 10003,
+							"M4": 10004,
+							"M5": 10005,
+							"M6": 10006,
+							"M7": 10007,
+							"M8": 10008,
+							"M9": 10009,
+							"M10": 10010,
+							"M11": 10011,
+							"M12": 10012
+						}
+					]
+				},
+				{
+					"divisionName": "Подразделение 2",
+					"divisionMoney": 2323543,
+					"divisionPersonnel": [
+						{
+							"name": "Name1",
+							"job": "Job1"
+						},
+						{
+							"name": "Name2",
+							"job": "Job2"
+						},
+						{
+							"name": "Name3",
+							"job": "Job3"
+						},
+						{
+							"name": "Name4",
+							"job": "Job4"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": 4,
+			"name": "Филиал 4",
+			"city": "Город 4",
+			"money": 1000004,
+			"divisions": [
+				{
+					"divisionName": "Подразделение 1",
+					"divisionMoney": 234234,
+					"divisionPersonnel": [
+						{
+							"name": "Name1",
+							"job": "Job1"
+						},
+						{
+							"name": "Name2",
+							"job": "Job2"
+						}
+					],
+					"divisionMoneyDetails": [
+						{
+							"M1": 10001,
+							"M2": 10002,
+							"M3": 10003,
+							"M4": 10004,
+							"M5": 10005,
+							"M6": 10006,
+							"M7": 10007,
+							"M8": 10008,
+							"M9": 10009,
+							"M10": 10010,
+							"M11": 10011,
+							"M12": 10012
+						}
+					]
+				},
+				{
+					"divisionName": "Подразделение 2",
+					"divisionMoney": 2323543,
+					"divisionPersonnel": [
+						{
+							"name": "Name1",
+							"job": "Job1"
+						},
+						{
+							"name": "Name2",
+							"job": "Job2"
+						},
+						{
+							"name": "Name3",
+							"job": "Job3"
+						},
+						{
+							"name": "Name4",
+							"job": "Job4"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": 5,
+			"name": "Филиал 5",
+			"city": "Город 5",
+			"money": 1000005,
+			"divisions": [
+				{
+					"divisionName": "Подразделение 1",
+					"divisionMoney": 234234,
+					"divisionPersonnel": [
+						{
+							"name": "Name1",
+							"job": "Job1"
+						},
+						{
+							"name": "Name2",
+							"job": "Job2"
+						}
+					],
+					"divisionMoneyDetails": [
+						{
+							"M1": 10001,
+							"M2": 10002,
+							"M3": 10003,
+							"M4": 10004,
+							"M5": 10005,
+							"M6": 10006,
+							"M7": 10007,
+							"M8": 10008,
+							"M9": 10009,
+							"M10": 10010,
+							"M11": 10011,
+							"M12": 10012
+						}
+					]
+				},
+				{
+					"divisionName": "Подразделение 2",
+					"divisionMoney": 2323543,
+					"divisionPersonnel": [
+						{
+							"name": "Name1",
+							"job": "Job1"
+						},
+						{
+							"name": "Name2",
+							"job": "Job2"
+						},
+						{
+							"name": "Name3",
+							"job": "Job3"
+						},
+						{
+							"name": "Name4",
+							"job": "Job4"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": 6,
+			"name": "Филиал 6",
+			"city": "Город 6",
+			"money": 1000006,
+			"divisions": [
+				{
+					"divisionName": "Подразделение 1",
+					"divisionMoney": 234234,
+					"divisionPersonnel": [
+						{
+							"name": "Name1",
+							"job": "Job1"
+						},
+						{
+							"name": "Name2",
+							"job": "Job2"
+						}
+					],
+					"divisionMoneyDetails": [
+						{
+							"M1": 10001,
+							"M2": 10002,
+							"M3": 10003,
+							"M4": 10004,
+							"M5": 10005,
+							"M6": 10006,
+							"M7": 10007,
+							"M8": 10008,
+							"M9": 10009,
+							"M10": 10010,
+							"M11": 10011,
+							"M12": 10012
+						}
+					]
+				},
+				{
+					"divisionName": "Подразделение 2",
+					"divisionMoney": 2323543,
+					"divisionPersonnel": [
+						{
+							"name": "Name1",
+							"job": "Job1"
+						},
+						{
+							"name": "Name2",
+							"job": "Job2"
+						},
+						{
+							"name": "Name3",
+							"job": "Job3"
+						},
+						{
+							"name": "Name4",
+							"job": "Job4"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": 7,
+			"name": "Филиал 7",
+			"city": "Город 7",
+			"money": 1000007,
+			"divisions": [
+				{
+					"divisionName": "Подразделение 1",
+					"divisionMoney": 234234,
+					"divisionPersonnel": [
+						{
+							"name": "Name1",
+							"job": "Job1"
+						},
+						{
+							"name": "Name2",
+							"job": "Job2"
+						}
+					],
+					"divisionMoneyDetails": [
+						{
+							"M1": 10001,
+							"M2": 10002,
+							"M3": 10003,
+							"M4": 10004,
+							"M5": 10005,
+							"M6": 10006,
+							"M7": 10007,
+							"M8": 10008,
+							"M9": 10009,
+							"M10": 10010,
+							"M11": 10011,
+							"M12": 10012
+						}
+					]
+				},
+				{
+					"divisionName": "Подразделение 2",
+					"divisionMoney": 2323543,
+					"divisionPersonnel": [
+						{
+							"name": "Name1",
+							"job": "Job1"
+						},
+						{
+							"name": "Name2",
+							"job": "Job2"
+						},
+						{
+							"name": "Name3",
+							"job": "Job3"
+						},
+						{
+							"name": "Name4",
+							"job": "Job4"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": 8,
+			"name": "Филиал 8",
+			"city": "Город 8",
+			"money": 1000008,
+			"divisions": [
+				{
+					"divisionName": "Подразделение 1",
+					"divisionMoney": 234234,
+					"divisionPersonnel": [
+						{
+							"name": "Name1",
+							"job": "Job1"
+						},
+						{
+							"name": "Name2",
+							"job": "Job2"
+						}
+					],
+					"divisionMoneyDetails": [
+						{
+							"M1": 10001,
+							"M2": 10002,
+							"M3": 10003,
+							"M4": 10004,
+							"M5": 10005,
+							"M6": 10006,
+							"M7": 10007,
+							"M8": 10008,
+							"M9": 10009,
+							"M10": 10010,
+							"M11": 10011,
+							"M12": 10012
+						}
+					]
+				},
+				{
+					"divisionName": "Подразделение 2",
+					"divisionMoney": 2323543,
+					"divisionPersonnel": [
+						{
+							"name": "Name1",
+							"job": "Job1"
+						},
+						{
+							"name": "Name2",
+							"job": "Job2"
+						},
+						{
+							"name": "Name3",
+							"job": "Job3"
+						},
+						{
+							"name": "Name4",
+							"job": "Job4"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": 9,
+			"name": "Филиал 9",
+			"city": "Город 9",
+			"money": 1000009,
+			"divisions": [
+				{
+					"divisionName": "Подразделение 1",
+					"divisionMoney": 234234,
+					"divisionPersonnel": [
+						{
+							"name": "Name1",
+							"job": "Job1"
+						},
+						{
+							"name": "Name2",
+							"job": "Job2"
+						}
+					],
+					"divisionMoneyDetails": [
+						{
+							"M1": 10001,
+							"M2": 10002,
+							"M3": 10003,
+							"M4": 10004,
+							"M5": 10005,
+							"M6": 10006,
+							"M7": 10007,
+							"M8": 10008,
+							"M9": 10009,
+							"M10": 10010,
+							"M11": 10011,
+							"M12": 10012
+						}
+					]
+				},
+				{
+					"divisionName": "Подразделение 2",
+					"divisionMoney": 2323543,
+					"divisionPersonnel": [
+						{
+							"name": "Name1",
+							"job": "Job1"
+						},
+						{
+							"name": "Name2",
+							"job": "Job2"
+						},
+						{
+							"name": "Name3",
+							"job": "Job3"
+						},
+						{
+							"name": "Name4",
+							"job": "Job4"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": 10,
+			"name": "Филиал 10",
+			"city": "Город 10",
+			"money": 1000010,
+			"divisions": [
+				{
+					"divisionName": "Подразделение 1",
+					"divisionMoney": 234234,
+					"divisionPersonnel": [
+						{
+							"name": "Name1",
+							"job": "Job1"
+						},
+						{
+							"name": "Name2",
+							"job": "Job2"
+						}
+					],
+					"divisionMoneyDetails": [
+						{
+							"M1": 10001,
+							"M2": 10002,
+							"M3": 10003,
+							"M4": 10004,
+							"M5": 10005,
+							"M6": 10006,
+							"M7": 10007,
+							"M8": 10008,
+							"M9": 10009,
+							"M10": 10010,
+							"M11": 10011,
+							"M12": 10012
+						}
+					]
+				},
+				{
+					"divisionName": "Подразделение 2",
+					"divisionMoney": 2323543,
+					"divisionPersonnel": [
+						{
+							"name": "Name1",
+							"job": "Job1"
+						},
+						{
+							"name": "Name2",
+							"job": "Job2"
+						},
+						{
+							"name": "Name3",
+							"job": "Job3"
+						},
+						{
+							"name": "Name4",
+							"job": "Job4"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": 11,
+			"name": "Филиал 11",
+			"city": "Город 11",
+			"money": 1000011,
+			"divisions": [
+				{
+					"divisionName": "Подразделение 1",
+					"divisionMoney": 234234,
+					"divisionPersonnel": [
+						{
+							"name": "Name1",
+							"job": "Job1"
+						},
+						{
+							"name": "Name2",
+							"job": "Job2"
+						}
+					],
+					"divisionMoneyDetails": [
+						{
+							"M1": 10001,
+							"M2": 10002,
+							"M3": 10003,
+							"M4": 10004,
+							"M5": 10005,
+							"M6": 10006,
+							"M7": 10007,
+							"M8": 10008,
+							"M9": 10009,
+							"M10": 10010,
+							"M11": 10011,
+							"M12": 10012
+						}
+					]
+				},
+				{
+					"divisionName": "Подразделение 2",
+					"divisionMoney": 2323543,
+					"divisionPersonnel": [
+						{
+							"name": "Name1",
+							"job": "Job1"
+						},
+						{
+							"name": "Name2",
+							"job": "Job2"
+						},
+						{
+							"name": "Name3",
+							"job": "Job3"
+						},
+						{
+							"name": "Name4",
+							"job": "Job4"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": 12,
+			"name": "Филиал 12",
+			"city": "Город 12",
+			"money": 1000012,
+			"divisions": [
+				{
+					"divisionName": "Подразделение 1",
+					"divisionMoney": 234234,
+					"divisionPersonnel": [
+						{
+							"name": "Name1",
+							"job": "Job1"
+						},
+						{
+							"name": "Name2",
+							"job": "Job2"
+						}
+					],
+					"divisionMoneyDetails": [
+						{
+							"M1": 10001,
+							"M2": 10002,
+							"M3": 10003,
+							"M4": 10004,
+							"M5": 10005,
+							"M6": 10006,
+							"M7": 10007,
+							"M8": 10008,
+							"M9": 10009,
+							"M10": 10010,
+							"M11": 10011,
+							"M12": 10012
+						}
+					]
+				},
+				{
+					"divisionName": "Подразделение 2",
+					"divisionMoney": 2323543,
+					"divisionPersonnel": [
+						{
+							"name": "Name1",
+							"job": "Job1"
+						},
+						{
+							"name": "Name2",
+							"job": "Job2"
+						},
+						{
+							"name": "Name3",
+							"job": "Job3"
+						},
+						{
+							"name": "Name4",
+							"job": "Job4"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": 13,
+			"name": "Филиал 13",
+			"city": "Город 13",
+			"money": 1000013,
+			"divisions": [
+				{
+					"divisionName": "Подразделение 1",
+					"divisionMoney": 234234,
+					"divisionPersonnel": [
+						{
+							"name": "Name1",
+							"job": "Job1"
+						},
+						{
+							"name": "Name2",
+							"job": "Job2"
+						}
+					],
+					"divisionMoneyDetails": [
+						{
+							"M1": 10001,
+							"M2": 10002,
+							"M3": 10003,
+							"M4": 10004,
+							"M5": 10005,
+							"M6": 10006,
+							"M7": 10007,
+							"M8": 10008,
+							"M9": 10009,
+							"M10": 10010,
+							"M11": 10011,
+							"M12": 10012
+						}
+					]
+				},
+				{
+					"divisionName": "Подразделение 2",
+					"divisionMoney": 2323543,
+					"divisionPersonnel": [
+						{
+							"name": "Name1",
+							"job": "Job1"
+						},
+						{
+							"name": "Name2",
+							"job": "Job2"
+						},
+						{
+							"name": "Name3",
+							"job": "Job3"
+						},
+						{
+							"name": "Name4",
+							"job": "Job4"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": 14,
+			"name": "Филиал 14",
+			"city": "Город 14",
+			"money": 1000014,
+			"divisions": [
+				{
+					"divisionName": "Подразделение 1",
+					"divisionMoney": 234234,
+					"divisionPersonnel": [
+						{
+							"name": "Name1",
+							"job": "Job1"
+						},
+						{
+							"name": "Name2",
+							"job": "Job2"
+						}
+					],
+					"divisionMoneyDetails": [
+						{
+							"M1": 10001,
+							"M2": 10002,
+							"M3": 10003,
+							"M4": 10004,
+							"M5": 10005,
+							"M6": 10006,
+							"M7": 10007,
+							"M8": 10008,
+							"M9": 10009,
+							"M10": 10010,
+							"M11": 10011,
+							"M12": 10012
+						}
+					]
+				},
+				{
+					"divisionName": "Подразделение 2",
+					"divisionMoney": 2323543,
+					"divisionPersonnel": [
+						{
+							"name": "Name1",
+							"job": "Job1"
+						},
+						{
+							"name": "Name2",
+							"job": "Job2"
+						},
+						{
+							"name": "Name3",
+							"job": "Job3"
+						},
+						{
+							"name": "Name4",
+							"job": "Job4"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": 15,
+			"name": "Филиал 15",
+			"city": "Город 15",
+			"money": 1000015,
+			"divisions": [
+				{
+					"divisionName": "Подразделение 1",
+					"divisionMoney": 234234,
+					"divisionPersonnel": [
+						{
+							"name": "Name1",
+							"job": "Job1"
+						},
+						{
+							"name": "Name2",
+							"job": "Job2"
+						}
+					],
+					"divisionMoneyDetails": [
+						{
+							"M1": 10001,
+							"M2": 10002,
+							"M3": 10003,
+							"M4": 10004,
+							"M5": 10005,
+							"M6": 10006,
+							"M7": 10007,
+							"M8": 10008,
+							"M9": 10009,
+							"M10": 10010,
+							"M11": 10011,
+							"M12": 10012
+						}
+					]
+				},
+				{
+					"divisionName": "Подразделение 2",
+					"divisionMoney": 2323543,
+					"divisionPersonnel": [
+						{
+							"name": "Name1",
+							"job": "Job1"
+						},
+						{
+							"name": "Name2",
+							"job": "Job2"
+						},
+						{
+							"name": "Name3",
+							"job": "Job3"
+						},
+						{
+							"name": "Name4",
+							"job": "Job4"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": 16,
+			"name": "Филиал 16",
+			"city": "Город 16",
+			"money": 1000016,
+			"divisions": [
+				{
+					"divisionName": "Подразделение 1",
+					"divisionMoney": 234234,
+					"divisionPersonnel": [
+						{
+							"name": "Name1",
+							"job": "Job1"
+						},
+						{
+							"name": "Name2",
+							"job": "Job2"
+						}
+					],
+					"divisionMoneyDetails": [
+						{
+							"M1": 10001,
+							"M2": 10002,
+							"M3": 10003,
+							"M4": 10004,
+							"M5": 10005,
+							"M6": 10006,
+							"M7": 10007,
+							"M8": 10008,
+							"M9": 10009,
+							"M10": 10010,
+							"M11": 10011,
+							"M12": 10012
+						}
+					]
+				},
+				{
+					"divisionName": "Подразделение 2",
+					"divisionMoney": 2323543,
+					"divisionPersonnel": [
+						{
+							"name": "Name1",
+							"job": "Job1"
+						},
+						{
+							"name": "Name2",
+							"job": "Job2"
+						},
+						{
+							"name": "Name3",
+							"job": "Job3"
+						},
+						{
+							"name": "Name4",
+							"job": "Job4"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": 17,
+			"name": "Филиал 17",
+			"city": "Город 17",
+			"money": 1000017,
+			"divisions": [
+				{
+					"divisionName": "Подразделение 1",
+					"divisionMoney": 234234,
+					"divisionPersonnel": [
+						{
+							"name": "Name1",
+							"job": "Job1"
+						},
+						{
+							"name": "Name2",
+							"job": "Job2"
+						}
+					],
+					"divisionMoneyDetails": [
+						{
+							"M1": 10001,
+							"M2": 10002,
+							"M3": 10003,
+							"M4": 10004,
+							"M5": 10005,
+							"M6": 10006,
+							"M7": 10007,
+							"M8": 10008,
+							"M9": 10009,
+							"M10": 10010,
+							"M11": 10011,
+							"M12": 10012
+						}
+					]
+				},
+				{
+					"divisionName": "Подразделение 2",
+					"divisionMoney": 2323543,
+					"divisionPersonnel": [
+						{
+							"name": "Name1",
+							"job": "Job1"
+						},
+						{
+							"name": "Name2",
+							"job": "Job2"
+						},
+						{
+							"name": "Name3",
+							"job": "Job3"
+						},
+						{
+							"name": "Name4",
+							"job": "Job4"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": 18,
+			"name": "Филиал 18",
+			"city": "Город 18",
+			"money": 1000018,
+			"divisions": [
+				{
+					"divisionName": "Подразделение 1",
+					"divisionMoney": 234234,
+					"divisionPersonnel": [
+						{
+							"name": "Name1",
+							"job": "Job1"
+						},
+						{
+							"name": "Name2",
+							"job": "Job2"
+						}
+					],
+					"divisionMoneyDetails": [
+						{
+							"M1": 10001,
+							"M2": 10002,
+							"M3": 10003,
+							"M4": 10004,
+							"M5": 10005,
+							"M6": 10006,
+							"M7": 10007,
+							"M8": 10008,
+							"M9": 10009,
+							"M10": 10010,
+							"M11": 10011,
+							"M12": 10012
+						}
+					]
+				},
+				{
+					"divisionName": "Подразделение 2",
+					"divisionMoney": 2323543,
+					"divisionPersonnel": [
+						{
+							"name": "Name1",
+							"job": "Job1"
+						},
+						{
+							"name": "Name2",
+							"job": "Job2"
+						},
+						{
+							"name": "Name3",
+							"job": "Job3"
+						},
+						{
+							"name": "Name4",
+							"job": "Job4"
+						}
+					]
+				}
+			]
+		}
+	]
+}
